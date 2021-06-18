@@ -1,0 +1,17 @@
+Level1:
+monster velocity 
+name , reset ,  button 
+,ground repopulation;
+
+
+Level2:
+
+
+Level3:
+Game End,Flag ,Sound ;
+back=createSprite(0,100,displayWidth,displayHeight);
+back.addImage(bg1);
+back.scale=3.5;
+back.velocityX=-4;
+back.x=back.width/2;
+console.log(back.x);
